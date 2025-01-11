@@ -1,0 +1,56 @@
+{
+    "heading": "Convenience and Facility",
+    "description": "Come and experience the flavors of the Himalayas at Satprayas Nepal & enjoy the convenience of our facilities and services that fulfills your every delicious desire & need.",
+    "facilities": [
+        {
+            "id": 1,
+            "name": "Catering",
+            "icon": "GiCryptEntrance"
+        },
+        {
+            "id": 2,
+            "name": "Home Delivery",
+            "icon": "MdOutlineDeliveryDining"
+        },
+        {
+            "id": 3,
+            "name": "Take Away",
+            "icon": "TbPaperBag"
+        },
+        {
+            "id": 4,
+            "name": "Complementary Wi-Fi",
+            "icon": "TbWifi"
+        },
+        {
+            "id": 5,
+            "name": "Karaoke & Music Room",
+            "icon": "TbMicrophone"
+        },
+        {
+            "id": 6,
+            "name": "Welcoming Hospitality",
+            "icon": "TbArmchair"
+        },
+        {
+            "id": 7,
+            "name": "11am - 3pm Lavish Buffet",
+            "icon": "TbChefHat"
+        },
+        {
+            "id": 8,
+            "name": "Free Vehicle Parking",
+            "icon": "TbParkingCircle"
+        }
+    ],
+    "images": [
+        {
+            "image": "https://mayurstay.com/himalayanflavours/assets/fridaylive-BZqLyC8W.webp",
+            "title": "Every Friday Live Music"
+        },
+        {
+            "image": "https://mayurstay.com/himalayanflavours/assets/fridaylive-BZqLyC8W.webp",
+            "title": "Every Friday Live Music"
+        }
+    ]
+}

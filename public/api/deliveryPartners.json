@@ -1,0 +1,17 @@
+{
+    "heading": "Our Delivery Partners",
+    "partners": [
+        {
+            "src": "https://cdn.freelogovectors.net/wp-content/uploads/2023/04/skipthedishes-logo-freelogovectors.net_.png",
+            "alt": "SkipTheDishes"
+        },
+        {
+            "src": "https://pics.paypal.com/00/c/gifts/gb/ue.png",
+            "alt": "PayPal"
+        },
+        {
+            "src": "https://cdn.prod.website-files.com/60414b21f1ffcdbb0d5ad688/63c95ba382cdf0a911766466_5e8ce484664eae0004085467.png",
+            "alt": "UberEats"
+        }
+    ]
+}

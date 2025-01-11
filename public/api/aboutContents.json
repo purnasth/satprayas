@@ -1,0 +1,56 @@
+{
+    "title": "Welcome to Satprayas Nepal",
+    "description": "Satprayas Nepal is more than just a restaurant; it's a celebration of the rich and diverse culinary heritage of the Himalayan region. Nestled in the heart of Victoria, B.C., our restaurant offers an authentic taste of India, Nepal, and China, bringing together the vibrant and bold flavors that define the cultures.",
+    "images": [
+        {
+            "src": "https://mayurstay.com/himalayanflavours/assets/9-CK46Wcbh.webp",
+            "alt": "Newari Cuisine"
+        },
+        {
+            "src": "https://mayurstay.com/himalayanflavours/assets/8-Du-4mWs8.webp",
+            "alt": "Newari Cuisine"
+        },
+        {
+            "src": "https://mayurstay.com/himalayanflavours/assets/nepali_cuisine-CC8b7viB.jpg",
+            "alt": "Newari Cuisine"
+        },
+        {
+            "src": "https://mayurstay.com/himalayanflavours/assets/thakali-CmkA4lXA.webp",
+            "alt": "Newari Cuisine"
+        }
+    ],
+    "sections": [
+        {
+            "title": "Our Story",
+            "heading": "Taste of Himalayas",
+            "content": "Inspired by the breathtaking landscapes and warm hospitality of the Himalayan region, Satprayas Nepal was founded with a passion for sharing the authentic tastes and culinary traditions of India, Nepal, and China. Our chefs, with years of experience and a deep love for these cuisines, carefully craft each dish using the finest ingredients, traditional techniques, and a touch of creativity."
+        },
+        {
+            "title": "Our Values",
+            "heading": "Excellence in Every Dish",
+            "content": "Excellence in every dish is our promise to you. We meticulously select the freshest and finest ingredients, sourced both locally and from the regions that inspire our cuisine. From the spices we grind in-house to the meats and vegetables we prepare daily, we prioritize quality at every step. This ensures that each bite is not only flavorful but also wholesome and satisfying."
+        }
+    ],
+    "home_page": {
+        "title": "Satprayas Nepal",
+        "description": "Discover the best place to enjoy authentic Himalayan cuisine at Satprayas Nepal! Soon, we will become your favorite spot in the city for genuine Himalayan dishes. Our commitment is to deliver outstanding service and top-quality food.",
+        "images": [
+            {
+                "src": "https://mayurstay.com/himalayanflavours/assets/8-Du-4mWs8.webp",
+                "alt": "Foods"
+            },
+            {
+                "src": "https://mayurstay.com/himalayanflavours/assets/9-CK46Wcbh.webp",
+                "alt": "Foods"
+            },
+            {
+                "src": "https://mayurstay.com/himalayanflavours/assets/5-B5RKD94v.webp",
+                "alt": "Foods"
+            },
+            {
+                "src": "https://mayurstay.com/himalayanflavours/assets/10-DPrIXW9F.webp",
+                "alt": "Foods"
+            }
+        ]
+    }
+}

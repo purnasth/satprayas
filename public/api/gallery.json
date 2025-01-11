@@ -1,0 +1,87 @@
+[
+    {
+        "id": "image1",
+        "url": "../../assets/images/gallery/1.webp",
+        "alt": "Gallery Image 1"
+    },
+    {
+        "id": "image2",
+        "url": "../../assets/images/gallery/2.webp",
+        "alt": "Gallery Image 2"
+    },
+    {
+        "id": "image3",
+        "url": "../../assets/images/gallery/3.webp",
+        "alt": "Gallery Image 3"
+    },
+    {
+        "id": "image6",
+        "url": "../../assets/images/gallery/4.webp",
+        "alt": "Gallery Image 6"
+    },
+    {
+        "id": "image7",
+        "url": "../../assets/images/gallery/5.webp",
+        "alt": "Gallery Image 7"
+    },
+    {
+        "id": "image5",
+        "url": "../../assets/images/gallery/7.webp",
+        "alt": "Gallery Image 5"
+    },
+    {
+        "id": "image4",
+        "url": "https://hips.hearstapps.com/hmg-prod/images/220907-delish-seo-chicken-tikka-masala-0212-eb-1675093094.jpg",
+        "alt": "Gallery Image 4"
+    },
+    {
+        "id": "image8",
+        "url": "../../assets/images/gallery/9.webp",
+        "alt": "Gallery Image 8"
+    },
+    {
+        "id": "image9",
+        "url": "../../assets/images/gallery/8.webp",
+        "alt": "Gallery Image 9"
+    },
+    {
+        "id": "image3",
+        "url": "https://hips.hearstapps.com/hmg-prod/images/chicken-tikka-masala1-1663341991.jpg?crop=0.681xw:1.00xh;0.196xw,0&resize=640:*",
+        "alt": "Gallery Image 3"
+    },
+    {
+        "id": "image6",
+        "url": "https://img.pikbest.com/origin/09/02/29/46NpIkbEsTeX3.png!sw800",
+        "alt": "Gallery Image 6"
+    },
+    {
+        "id": "image4",
+        "url": "https://cdn.prod.website-files.com/64931d2aee18510b47f4bb1f/64ecfa1fad20286493de9568_r094aj5e10gjt9vzy87jjw7s3dq9xvy1.jpeg",
+        "alt": "Gallery Image 4"
+    },
+    {
+        "id": "image8",
+        "url": "https://hips.hearstapps.com/hmg-prod/images/220907-delish-seo-chicken-tikka-masala-0212-eb-1675093094.jpg",
+        "alt": "Gallery Image 8"
+    },
+    {
+        "id": "image9",
+        "url": "https://www.tastingtable.com/img/gallery/20-delicious-indian-dishes-you-have-to-try-at-least-once/intro-1645057933.jpg",
+        "alt": "Gallery Image 9"
+    },
+    {
+        "id": "image11",
+        "url": "../../assets/images/nepali_kitchen.jpg",
+        "alt": "Gallery Image 11"
+    },
+    {
+        "id": "image13",
+        "url": "../../assets/images/nepali_cuisine.jpg",
+        "alt": "Gallery Image 13"
+    },
+    {
+        "id": "image15",
+        "url": "../../assets/images/nepali_cuisine.jpg",
+        "alt": "Gallery Image 15"
+    }
+]

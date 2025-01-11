@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "offer": "",
+        "title": "Free Dessert",
+        "description": "After every lunch or dinner, you will get a free dessert on your total bill.",
+        "image": "https://mayurstay.com/himalayanflavours/assets/dessert-CZWDi1Ku.webp"
+    },
+    {
+        "id": 2,
+        "offer": "",
+        "title": "Beer on Market Price",
+        "description": "5pm onwards every day, you will get beer on market price on your total bill.",
+        "image": "https://mayurstay.com/himalayanflavours/assets/beer-CMvwMvQW.webp"
+    }
+]

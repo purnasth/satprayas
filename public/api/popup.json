@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "Free Dessert",
+        "description": "Get free dessert on every order above $199",
+        "link": "#",
+        "type": "image",
+        "img": {
+            "src": "https://mayurstay.com/himalayanflavours/backend/images/offers/listimage/1s2v9-dessert.webp",
+            "alt": "Popup Image"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Beer on Market Price",
+        "description": "Beer is available on market price.",
+        "link": "#",
+        "type": "image",
+        "img": {
+            "src": "https://mayurstay.com/himalayanflavours/backend/images/offers/listimage/aLhqz-beer.webp",
+            "alt": "Popup Image"
+        }
+    }
+]
