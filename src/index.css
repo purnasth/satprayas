@@ -1,7 +1,13 @@
 @font-face {
-  font-family: 'Cotta';
-  src: url('./assets/fonts/cotta.otf') format('opentype');
+  font-family: 'Manding';
+  src: url('./assets/fonts/Manding.woff') format('woff');
+  /* font-display: swap; */
+}
+@font-face {
+  font-family: 'Meuthanies';
+  src: url('./assets/fonts/Meuthanies.woff') format('woff');
   font-display: swap;
+  font-weight: 700;
 }
 
 @tailwind base;
@@ -81,7 +87,7 @@
   button,
   ul,
   li {
-    @apply font-body font-medium;
+    @apply font-body font-light;
   }
 
   main {

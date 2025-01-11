@@ -10,8 +10,8 @@ module.exports = {
         "logo-red": '#ff3130'
       },
       fontFamily: {
-        title: ['"Cotta"', 'Mulish', 'Georgia', 'Cambria', 'serif'],
-        body: ['"Mulish"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        title: ['"Manding"', 'Bricolage Grotesque', 'Georgia', 'Cambria', 'serif'],
+        body: ['"Schibsted Grotesk"', 'Bricolage Grotesque', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       fontSize: {
         inherit: 'inherit',
