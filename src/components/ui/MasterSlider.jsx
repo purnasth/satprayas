@@ -40,11 +40,14 @@ const MasterSlider = ({
             alt={slide.title || `Slide ${index + 1}`}
             className="absolute inset-0 bottom-0 -z-10 size-full object-contain"
           />
-          <div className="pointer-events-auto mt-32 z-10 flex size-full flex-col items-center justify-start">
+          <div className="pointer-events-auto z-10 mt-40 flex size-full flex-col items-center justify-start">
             {slide.title && (
-              <h2 className="text-shadow-dark-glow mx-8 mb-5 mt-8 max-w-xl text-center text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
-                {slide.title}
-              </h2>
+              <>
+                <h2 className="text-shadow-dark-glow mx-8 max-w-xl text-center text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
+                  {slide.title}
+                </h2>
+                <p className="my-6 max-w-md text-center">{slide.description}</p>
+              </>
             )}
             {/* <img
                 src={fire}

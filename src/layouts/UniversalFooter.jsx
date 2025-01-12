@@ -22,7 +22,8 @@ const UniversalFooter = () => {
     data: siteRegulars = [],
     isLoading: regularsLoading,
     isError: regularsError,
-  } = useFetchAPI('siteRegulars', `${apiUrl}site-regulars`);
+    // } = useFetchAPI('siteRegulars', `${apiUrl}site-regulars`);
+  } = useFetchAPI('siteRegulars', `/api/siteregulars.json`);
 
   const isLoading = navLoading || regularsLoading;
   const isError = navError || regularsError;

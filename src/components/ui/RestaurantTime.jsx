@@ -8,7 +8,8 @@ const RestaurantTime = () => {
     data: siteRegulars,
     isLoading,
     isError,
-  } = useFetchAPI('siteRegulars', `${apiUrl}site-regulars`);
+    // } = useFetchAPI('siteRegulars', `${apiUrl}site-regulars`);
+  } = useFetchAPI('siteRegulars', `/api/siteregulars.json`);
 
   if (isLoading) return null;
   if (isError) {
