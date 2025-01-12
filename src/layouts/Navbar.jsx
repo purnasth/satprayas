@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { CgMenuHotdog } from 'react-icons/cg';
 import { MdOutlineRoomService, MdStarRate } from 'react-icons/md';
 import { PiChefHatBold } from 'react-icons/pi';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import Logo from '../components/ui/Logo';
 import ContactInfo from '../components/ui/ContactInfo';
 import useFetchAPI from '../hooks/useFetchAPI';
+import { TbHeartHandshake, TbMenu2 } from 'react-icons/tb';
+import { PiHandHeartFill } from 'react-icons/pi';
 
 const Navbar = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
@@ -64,45 +65,42 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`pointer-events-none fixed top-0 z-50 flex w-full items-start justify-between p-4 transition-all duration-1000 ease-in-out`}
+        className={`fixed top-0 z-50 flex w-full items-start p-4 transition-all duration-1000 ease-in-out`}
       >
-        <div className="pointer-events-auto flex gap-2">
+        <div className="flex-1">
           <button
             onClick={toggleNav}
-            className="transition-300 rounded-full border border-white/50 bg-dark p-2 text-white hover:border-black/80 hover:bg-white hover:text-dark"
+            className="transition-300 inline-flex w-fit items-center justify-center gap-2 rounded-full border border-dark/50 bg-white px-4 py-2 text-dark hover:border-black/80 hover:bg-dark hover:text-light"
             aria-label="Menu"
             title="Menu"
           >
-            <CgMenuHotdog className="text-2xl" />
+            <TbMenu2 className="text-xl" />
+            <span>Menu</span>
           </button>
+        </div>
+
+        <Logo
+          aprops={`flex flex-1 justify-center transition-1000 pointer-events-auto object-contain origin-center  ${
+            visible ? '-translate-y-0' : '-translate-y-[200%]'
+          }`}
+          className={`transition-1000 h-16 w-auto rounded-xl bg-white object-contain p-1 md:h-24`}
+        />
+        <div className="flex flex-1 items-end justify-end">
           <Link
             to="#contactForm"
-            className={`transition-1000 inline-flex items-center gap-2 rounded-full border border-light/50 bg-dark/50 px-4 py-2 font-bold text-light shadow backdrop-blur-sm ${
-              visible
-                ? 'translate-y-0 scale-100'
-                : '-translate-y-[200%] scale-0'
-            }`}
+            className={`transition-300 inline-flex w-fit items-center justify-center gap-1 rounded-full border border-dark/50 bg-white px-4 py-2 text-dark hover:border-black/80 hover:bg-dark hover:text-light`}
             aria-label="Reservation"
             title="Reservation"
             onClick={handleScroll}
           >
-            Reservation
-            <MdOutlineRoomService className="animate-bounce text-2xl" />
+            Donate
+            <PiHandHeartFill className="text-xl" />
           </Link>
         </div>
-
-        <Logo
-          aprops={`transition-1000 pointer-events-auto object-contain origin-top rounded-xl ${
-            visible
-              ? '-translate-y-0 bg-white'
-              : '-translate-y-[200%] scale-0 bg-white'
-          } ${window.scrollY > 0 ? '-translate-y-0' : '-translate-y-[200%]'}`}
-          className="transition-1000 h-16 w-auto object-contain p-1 md:h-24"
-        />
       </header>
 
       <div
-        className={`transition-700 fixed inset-0 z-30 bg-black/50 backdrop-blur-sm ${
+        className={`transition-700 fixed inset-0 z-30 flex flex-1 items-end justify-end bg-black/50 backdrop-blur-sm ${
           isOpen ? 'opacity-100' : 'pointer-events-none opacity-0'
         }`}
         onClick={() => setIsOpen(false)}

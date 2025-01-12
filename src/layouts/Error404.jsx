@@ -1,6 +1,6 @@
 import React from 'react';
 import error from '../assets/error.svg';
-import FireButton from '../components/ui/FireButton';
+import DonationButton from '../components/ui/DonationButton';
 import Meta from '../utils/Meta';
 
 const Error404 = () => {
@@ -18,7 +18,7 @@ const Error404 = () => {
           className="mb-8 h-auto w-96 select-none object-contain md:h-[60vh] md:w-auto"
           draggable="false"
         />
-        <FireButton value="Go Home" router="/" />
+        <DonationButton value="Go Home" router="/" />
       </div>
     </>
   );

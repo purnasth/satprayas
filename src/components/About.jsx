@@ -1,5 +1,5 @@
 import React from 'react';
-import FireButton from './ui/FireButton';
+import DonationButton from './ui/DonationButton';
 
 import useFetchAPI from '../hooks/useFetchAPI';
 
@@ -51,7 +51,7 @@ const About = () => {
 
           {/* <button className="mt-12 bg-orange-300 px-8 py-2 rounded-full">Explore More</button> */}
 
-          <FireButton value="Explore More" router="/about" />
+          <DonationButton value="Explore More" router="/about" />
         </div>
         <div className="flex items-center justify-center gap-8 pt-12 sm:gap-24 lg:block lg:space-y-24 lg:pt-64">
           <div className="flex items-end justify-end">

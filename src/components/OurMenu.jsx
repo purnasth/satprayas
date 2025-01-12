@@ -1,5 +1,5 @@
 import React from 'react';
-import FireButton from './ui/FireButton';
+import DonationButton from './ui/DonationButton';
 
 // import nepali from '../assets/images/cuisine/nepali.png';
 // import indian from '../assets/images/cuisine/indian.png';
@@ -136,8 +136,8 @@ const OurMenu = () => {
 
       <div className="flex flex-col items-center justify-center gap-4">
         <div className="mx-auto h-28 w-px bg-orange-300/30" />
-        {/* <FireButton value="View Full Menu" router="/food-menu" /> */}
-        <FireButton value="View Full Menu" router="#" />
+        {/* <DonationButton value="View Full Menu" router="/food-menu" /> */}
+        <DonationButton value="View Full Menu" router="#" />
       </div>
     </main>
   );

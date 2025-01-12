@@ -2,7 +2,7 @@ import React from 'react';
 import { offersContent } from '../constants/data';
 import { Link } from 'react-router-dom';
 import fire from '../assets/logos/fire.svg';
-import FireButton from './ui/FireButton';
+import DonationButton from './ui/DonationButton';
 
 const Offers_New = () => {
   return (
@@ -60,7 +60,7 @@ const Offers_New = () => {
                   className="filter-white transition-300 size-4 scale-75 object-contain group-hover:scale-100 group-hover:filter-none"
                 />
               </Link>
-          </div>
+            </div>
           </div>
         ))}
       </div>
@@ -78,7 +78,7 @@ const Offers_New = () => {
         </p>
         <div className="mx-auto h-20 w-px bg-orange-300/30" />
         <div className="flex flex-col items-center justify-center gap-2 text-black">
-          <FireButton value="All Offers" router="#" />
+          <DonationButton value="All Offers" router="#" />
           {/* <div className="flex flex-col items-center justify-center gap-0">
             <p>
               <span className="font-normal opacity-60">

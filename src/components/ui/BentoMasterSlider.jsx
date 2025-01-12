@@ -8,7 +8,7 @@ import 'swiper/css/effect-fade';
 import { TbArrowNarrowRight, TbArrowNarrowLeft } from 'react-icons/tb';
 import DonationButton from './DonationButton';
 
-const MasterSlider = ({
+const BentoMasterSlider = ({
   slides = [],
   autoplay = true,
   effect = 'fade',
@@ -34,17 +34,23 @@ const MasterSlider = ({
       className="h-full"
     >
       {slides.map((slide, index) => (
-        <SwiperSlide key={index} className={`${sizeClassName}`}>
-          <img
-            src={slide.image}
-            alt={slide.title || `Slide ${index + 1}`}
-            className="absolute inset-0 bottom-0 -z-10 size-full object-contain"
-          />
-          <div className="pointer-events-auto mt-32 z-10 flex size-full flex-col items-center justify-start">
+        <SwiperSlide
+          key={index}
+          className={`grid grid-cols-5 content-center items-center`}
+        >
+          <div className="pointer-events-auto z-10 col-span-2 flex size-full flex-col items-start justify-center">
             {slide.title && (
-              <h2 className="text-shadow-dark-glow mx-8 mb-5 mt-8 max-w-xl text-center text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
+              <>
+              <h1>
+                Satprayas Nepal
+              </h1>
+              <p>
+                Satprayas Nepal is a service oriented non-profit organization that works for the well being and welfare of physically and mentally challenged children. It is registered in Bhaktapur District and has been providing services to children of Bhaktapur and has been providing services to children of Bhaktapur and nearby cities.
+              </p>
+              {/* <h2 className="text-shadow-dark-glow mx-8 mb-5 mt-8 max-w-xl text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
                 {slide.title}
-              </h2>
+              </h2> */}
+              </>
             )}
             {/* <img
                 src={fire}
@@ -52,6 +58,14 @@ const MasterSlider = ({
                 className="size-12 rounded-full border border-orange-300 object-contain p-1"
               /> */}
             <DonationButton value="Make a donation" router="/donate" />
+          </div>
+          <div className="col-span-3">
+            <img
+              src={slide.image}
+              alt={slide.title || `Slide ${index + 1}`}
+              // className="absolute inset-0 -z-10 size-full object-cover"
+              className={`${sizeClassName}`}
+            />
           </div>
         </SwiperSlide>
       ))}
@@ -84,4 +98,4 @@ const MasterSlider = ({
   </>
 );
 
-export default MasterSlider;
+export default BentoMasterSlider;

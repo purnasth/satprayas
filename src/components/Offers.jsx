@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import fire from '../assets/logos/fire.svg';
-import FireButton from './ui/FireButton';
+import DonationButton from './ui/DonationButton';
 import OrCallUs from './ui/OrCallUs';
 import useFetchAPI from '../hooks/useFetchAPI';
 import LogoBar from './ui/LogoBar';
@@ -30,9 +30,9 @@ const Offers = () => {
             Special Offers & Promotions
           </h3>
           <p className="text-center text-sm text-dark/60">
-            Discover the latest offers and promotions from Satprayas Nepal
-            and enjoy your favorite dishes at a discounted price. You, your
-            friends, and your family are all welcome to join us!
+            Discover the latest offers and promotions from Satprayas Nepal and
+            enjoy your favorite dishes at a discounted price. You, your friends,
+            and your family are all welcome to join us!
           </p>
         </div>
         <div className="grid grid-cols-1 gap-y-12 md:gap-12 xl:grid-cols-3">
@@ -84,7 +84,7 @@ const Offers = () => {
             </p>
             <div className="ml-16 h-20 w-px bg-orange-300/30" />
             <div className="flex flex-col items-start justify-center gap-2 text-black">
-              <FireButton value="Enquiry" router="/offers#enquiry" />
+              <DonationButton value="Enquiry" router="/offers#enquiry" />
               <OrCallUs />
             </div>
           </div>
