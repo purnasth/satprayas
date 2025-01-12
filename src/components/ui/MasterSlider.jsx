@@ -38,9 +38,9 @@ const MasterSlider = ({
           <img
             src={slide.image}
             alt={slide.title || `Slide ${index + 1}`}
-            className="absolute inset-0 bottom-0 -z-10 size-full object-contain"
+            className="absolute inset-0 bottom-0 -z-10 size-full object-scale-down object-bottom"
           />
-          <div className="pointer-events-auto z-10 mt-40 flex size-full flex-col items-center justify-start">
+          <div className="pointer-events-auto z-10 mt-40 flex flex-col items-center justify-start">
             {slide.title && (
               <>
                 <h2 className="text-shadow-dark-glow mx-8 max-w-xl text-center text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
