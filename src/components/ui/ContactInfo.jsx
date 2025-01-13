@@ -54,7 +54,7 @@ const ContactInfo = ({ align }) => {
                   <React.Fragment key={index}>
                     <a
                       href={item.url[index]}
-                      className="inline-block text-sm font-bold hover:underline"
+                      className="inline-block text-sm font-semibold hover:underline"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={title}
@@ -67,7 +67,7 @@ const ContactInfo = ({ align }) => {
               ) : (
                 <a
                   href={item.url}
-                  className="inline-block text-sm font-bold hover:underline"
+                  className="inline-block text-sm font-semibold hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={item.title}
@@ -79,35 +79,40 @@ const ContactInfo = ({ align }) => {
           ))}
       </ul>
 
-      <ul className={`my-6 flex ${align} gap-4 text-2xl`}>
-        {contactInfo
-          .filter((item) => item.type === 'social')
-          .map((item) => {
-            const IconComponent = iconMap[item.icon];
+      <div className="my-6 flex items-center gap-4">
+        <span className="text-xs uppercase tracking-wider text-dark/50">
+          Follow Us:{' '}
+        </span>
+        <ul className={`flex ${align} gap-3`}>
+          {contactInfo
+            .filter((item) => item.type === 'social')
+            .map((item) => {
+              const IconComponent = iconMap[item.icon];
 
-            return (
-              <li key={item.id} className="group">
-                <Link
-                  to={item.url}
-                  rel="noreferrer noopener"
-                  aria-label={item.title}
-                  title={item.title}
-                  target="_blank"
-                >
-                  {IconComponent ? (
-                    <IconComponent className="text-lg transition-all duration-300 ease-linear group-hover:scale-125" />
-                  ) : item.image ? (
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className="size-5 object-contain transition-all duration-300 ease-linear group-hover:scale-125"
-                    />
-                  ) : null}
-                </Link>
-              </li>
-            );
-          })}
-      </ul>
+              return (
+                <li key={item.id} className="group">
+                  <Link
+                    to={item.url}
+                    rel="noreferrer noopener"
+                    aria-label={item.title}
+                    title={item.title}
+                    target="_blank"
+                  >
+                    {IconComponent ? (
+                      <IconComponent className="size-9 rounded-full border border-dark/30 p-2 text-base text-dark transition-all duration-200 ease-linear group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-light" />
+                    ) : item.image ? (
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="size-9 rounded-full border border-dark/30 object-contain p-2 transition-all duration-200 ease-linear group-hover:border-orange-500 group-hover:bg-orange-500 group-hover:text-light"
+                      />
+                    ) : null}
+                  </Link>
+                </li>
+              );
+            })}
+        </ul>
+      </div>
     </>
   );
 };

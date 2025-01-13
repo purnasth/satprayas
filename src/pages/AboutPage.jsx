@@ -13,7 +13,8 @@ const AboutPage = () => {
     data: aboutContents,
     isLoading,
     isError,
-  } = useFetchAPI('aboutContents', `${apiUrl}about`);
+  // } = useFetchAPI('aboutContents', `${apiUrl}about`);
+  } = useFetchAPI('aboutContents', `/api/about.json`);
 
   if (isLoading) return null;
   if (isError) {
@@ -64,8 +65,8 @@ const AboutPage = () => {
 
       <main className="mx-auto grid w-full grid-cols-1 gap-8 md:gap-16 lg:w-[90%] lg:grid-cols-2 xl:w-4/5 xl:gap-32">
         <img
-          src={images[3].src}
-          alt={images[3].alt}
+          src={images[2].src}
+          alt={images[2].alt}
           className="top-10 h-64 w-full object-cover sm:h-96 lg:sticky lg:h-[90vh]"
         />
         <div className="flex flex-col gap-8 sm:gap-16">

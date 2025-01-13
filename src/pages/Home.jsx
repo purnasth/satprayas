@@ -51,9 +51,9 @@ const Home = () => {
       <Offers />
       <Gallery limit={10} />
       <Awards />
-      <main>
+      {/* <main> */}
         <Contact />
-      </main>
+      {/* </main> */}
       <UniversalFooter />
     </>
   );

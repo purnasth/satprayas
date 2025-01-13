@@ -15,7 +15,7 @@ const Navbar = () => {
     data: navLinks = [],
     isLoading,
     isError,
-  // } = useFetchAPI('navLinks', `${apiUrl}menu`);
+    // } = useFetchAPI('navLinks', `${apiUrl}menu`);
   } = useFetchAPI('navLinks', `/api/navLinks.json`);
 
   const [isOpen, setIsOpen] = useState(false);
@@ -115,16 +115,16 @@ const Navbar = () => {
       >
         <button
           onClick={() => setIsOpen(false)}
-          className="absolute right-4 top-4 flex items-center justify-center gap-2 text-4xl text-black"
+          className="absolute right-6 top-5 flex items-center justify-center gap-2 text-2xl text-black"
           aria-label="Close"
           title="Close"
         >
-          &times;
+          &#x2715;
         </button>
 
         <div className="justify -evenly flex size-full flex-col items-start gap-0 px-4 text-dark md:px-8">
-          <div className="mt-12 w-full">
-            {/* <span className="text-xs uppercase text-dark/50">Web Pages</span> */}
+          <div className="mt-7 w-full">
+            <span className="text-xs uppercase text-dark/50">Web Pages</span>
 
             <ul className="links mt-6 flex flex-col items-start justify-start gap-2 md:gap-4">
               {navLinks.map((link) => (
@@ -137,7 +137,7 @@ const Navbar = () => {
                     aria-label={link.title}
                   >
                     {link.title}
-                    <PiChefHatBold className="translate-x-4 rounded-full text-xl opacity-0 transition-all duration-300 group-hover:-translate-x-0 group-hover:opacity-100" />
+                    <PiHandHeartFill className="translate-x-4 rounded-full text-xl opacity-0 transition-all duration-300 group-hover:-translate-x-0 group-hover:opacity-100" />
                   </NavLink>
                 </li>
               ))}
@@ -145,12 +145,14 @@ const Navbar = () => {
           </div>
           <hr className="my-8 w-full border-dark/20" />
           <div className="w-full space-y-4">
-            <span className="text-xs uppercase text-dark/50">Contact Info</span>
+            <span className="text-xs uppercase tracking-wider text-dark/50">
+              Contact Info
+            </span>
             <div className="space-y-8">
               <ContactInfo align="items-start justify-start" />
             </div>
           </div>
-          <div className="mt-12 flex w-full items-center justify-between border-t-2 border-dark/10">
+          {/* <div className="mt-12 flex w-full items-center justify-between border-t-2 border-dark/10">
             <span className="flex gap-0 text-base text-dark">
               <MdStarRate />
               <MdStarRate />
@@ -161,7 +163,7 @@ const Navbar = () => {
             <p className="my-4 text-sm text-dark/50">
               <strong className="font-bold text-dark">5.0</strong>/ 0 review
             </p>
-          </div>
+          </div> */}
         </div>
       </nav>
     </>
