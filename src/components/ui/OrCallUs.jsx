@@ -29,7 +29,7 @@ const OrCallUs = () => {
         <span className="font-light opacity-80">or call us directly</span>
         <a
           rel="noopener noreferrer"
-          className="transition-linear ml-2 font-semibold"
+          className="transition-linear ml-2 font-semibold hover:text-orange-300"
           href={`tel:${contactInfo}`}
           target="_blank"
         >
@@ -38,7 +38,7 @@ const OrCallUs = () => {
       </p>
       <a
         rel="noopener noreferrer"
-        className="transition-linear font-semibold"
+        className="transition-linear font-semibold hover:text-orange-300"
         href={`mailto:${emailAddress}`}
         target="_blank"
       >
