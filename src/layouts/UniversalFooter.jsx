@@ -106,7 +106,9 @@ const UniversalFooter = () => {
         </div>
         <div className="my-12 flex w-full flex-col items-start justify-start gap-2 text-base md:flex-row md:justify-between md:text-base lg:mb-0 lg:mt-16 lg:items-center lg:justify-between lg:text-sm">
           <span>
-            © {new Date().getFullYear()} {sitetitle}{' '}
+            © {new Date().getFullYear()}{' '}
+            <strong className="font-semibold">{sitetitle}</strong> | All Rights
+            Reserved
           </span>
           <span>
             Website by: &nbsp;

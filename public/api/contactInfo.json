@@ -1,0 +1,60 @@
+[
+    {
+        "id": "1",
+        "type": "location",
+        "title": "Bhimsenthan-5, Bhaktapur, Nepal",
+        "url": "https://maps.app.goo.gl/QaWJ2W28EwvqgSDe8",
+        "icon": null,
+        "image": null
+    },
+    {
+        "id": 2,
+        "type": "phone",
+        "title": [
+            "+977 9851063716",
+            "+977 9851247627"
+        ],
+        "url": [
+            "tel:+9779851063716",
+            "tel:+9779851247627"
+        ],
+        "icon": null,
+        "image": null
+    },
+    {
+        "id": "3",
+        "type": "email",
+        "title": [
+            "info@satprayash.org.np"
+        ],
+        "url": [
+            "mailto:info@satprayash.org.np"
+        ],
+        "icon": null,
+        "image": null
+    },
+    {
+        "id": 4,
+        "type": "social",
+        "title": "Facebook",
+        "url": "https://www.facebook.com/satprayas.np/",
+        "icon": "FaFacebookF",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "type": "social",
+        "title": "Instagram",
+        "url": "#",
+        "icon": "RiInstagramFill",
+        "image": ""
+    },
+    {
+        "id": 6,
+        "type": "social",
+        "title": "Youtube",
+        "url": "#",
+        "icon": "FaYoutube",
+        "image": ""
+    }
+]

@@ -54,7 +54,7 @@ const MasterSlider = ({
                 alt="Fire Icon"
                 className="size-12 rounded-full border border-orange-500 object-contain p-1"
               /> */}
-            <DonationButton value="Make a donation" router="/donate" />
+            <DonationButton value="Make a donation" router="/contact" />
           </div>
         </SwiperSlide>
       ))}

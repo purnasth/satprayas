@@ -5,7 +5,7 @@ import useFetchAPI from '../../hooks/useFetchAPI';
 import { PiHandHeartFill } from 'react-icons/pi';
 import PopupModal from '../PopupModa';
 
-const WhatsApp = () => {
+const Booking = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
 
   const {
@@ -46,6 +46,7 @@ const WhatsApp = () => {
 
   const closeModal = () => {
     setShowQrModal(false);
+    window.scrollTo(0, 0);
   };
 
   const { booking_code, booking_QR } = siteRegulars;
@@ -57,7 +58,7 @@ const WhatsApp = () => {
         onClick={handleButtonClick}
         className={`${
           showButton ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-        } transition-300 fixed bottom-4 right-1/2 z-40 inline-flex translate-x-1/2 translate-y-0 scale-100 items-center justify-center gap-2 rounded-full border border-green-700 bg-dark/50 bg-green-600 px-6 py-2 text-light shadow backdrop-blur-sm hover:bg-light hover:text-green-700`}
+        } transition-300 fixed bottom-4 right-1/2 z-40 inline-flex translate-x-1/2 translate-y-0 scale-100 items-center justify-center gap-2 rounded-full border border-green-700 bg-dark/50 bg-green-600 px-6 py-2 text-light shadow backdrop-blur-sm hover:bg-white hover:text-green-700`}
         title="Donate Us"
         aria-label="Donate Us"
       >
@@ -89,9 +90,8 @@ const WhatsApp = () => {
               <Link
                 // to={booking_code}
                 to="/contact"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="transition-300 inline-flex rounded-full border border-green-700 px-5 py-2 text-center text-sm tracking-wider text-green-700 hover:bg-green-700 hover:text-light"
+                onClick={closeModal}
               >
                 or Explore More
               </Link>
@@ -103,4 +103,4 @@ const WhatsApp = () => {
   );
 };
 
-export default WhatsApp;
+export default Booking;

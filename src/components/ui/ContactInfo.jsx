@@ -33,7 +33,8 @@ const ContactInfo = ({ align }) => {
     data: contactInfo = [],
     isLoading,
     isError,
-  } = useFetchAPI('contactInfo', `${apiUrl}location`);
+    // } = useFetchAPI('contactInfo', `${apiUrl}location`);
+  } = useFetchAPI('contactInfo', `/api/contactInfo.json`);
 
   if (isLoading) return null;
   if (isError) {

@@ -49,10 +49,10 @@ const Reservation = () => {
               with you to create fun and exciting event.
             </p>
 
-            <div className="my-12 flex items-center justify-center text-black">
+            <div className="my-12 flex items-center justify-center text-dark">
               <Link
-                to="/contact"
-                className="transition-300 group flex items-center justify-center gap-4 rounded-full border border-orange-500 bg-orange-500 px-8 py-4 text-sm font-semibold backdrop-blur hover:bg-orange-500/20 hover:text-orange-500 md:text-base"
+                to="/contact#contactForm"
+                className="transition-300 group flex items-center justify-center gap-4 rounded-full border-4 border-orange-500 bg-orange-500 px-8 py-4 text-sm font-semibold backdrop-blur hover:bg-light hover:text-orange-500 md:text-base"
                 aria-label="Host Your Events"
                 title="Host Your Events"
               >

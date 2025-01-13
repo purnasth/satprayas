@@ -95,7 +95,7 @@ const Navbar = () => {
             title="Reservation"
             onClick={handleScroll}
           >
-            Donate
+            Host an Event
             <PiHandHeartFill className="text-xl" />
           </Link>
         </div>

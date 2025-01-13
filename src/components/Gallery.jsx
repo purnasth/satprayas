@@ -34,7 +34,7 @@ const Gallery = ({ limit }) => {
 
           <Link
             to="/gallery"
-            className="transition-300 mx-auto mt-16 flex w-fit items-center justify-center gap-2 rounded-full border border-orange-500/50 bg-dark/50 bg-orange-500 px-6 py-2 font-medium text-dark shadow backdrop-blur-sm hover:bg-orange-500/30 hover:text-orange-500"
+            className="transition-300 mx-auto mt-16 flex w-fit items-center justify-center gap-2 rounded-full border border-orange-500/50 bg-orange-500 px-6 py-2 font-medium text-light shadow backdrop-blur-sm hover:bg-light hover:text-orange-500"
           >
             Explore Gallery
           </Link>
