@@ -136,7 +136,7 @@ const OffersEnquiry = ({ offerTitle, onClose }) => {
               type="submit"
               aria-label="Submit"
               title="Submit"
-              className={`transition-300 group my-4 flex items-center gap-2 rounded-full border border-orange-300 bg-orange-300 px-5 py-2 font-semibold hover:bg-orange-200/80 hover:text-orange-500 ${
+              className={`transition-300 group my-4 flex items-center gap-2 rounded-full border border-orange-500 bg-orange-500 px-5 py-2 font-semibold hover:bg-orange-200/80 hover:text-orange-500 ${
                 isSubmitting ? 'cursor-not-allowed opacity-75' : ''
               }`}
               disabled={isSubmitting}

@@ -1,5 +1,5 @@
 import React from 'react';
-import eventsPicture from '../../assets/images/events.jpg';
+import eventsPicture from '../../assets/images/events.webp';
 import ReservationWhatsApp from './ReservationWhatsApp';
 import useFetchAPI from '../../hooks/useFetchAPI';
 import OrCallUs from './OrCallUs';
@@ -52,7 +52,7 @@ const Reservation = () => {
             <div className="my-12 flex items-center justify-center text-black">
               <Link
                 to="/contact"
-                className="transition-300 group flex items-center justify-center gap-4 rounded-full border border-orange-300 bg-orange-300 px-8 py-4 text-sm font-semibold backdrop-blur hover:bg-orange-300/20 hover:text-orange-500 md:text-base"
+                className="transition-300 group flex items-center justify-center gap-4 rounded-full border border-orange-500 bg-orange-500 px-8 py-4 text-sm font-semibold backdrop-blur hover:bg-orange-500/20 hover:text-orange-500 md:text-base"
                 aria-label="Host Your Events"
                 title="Host Your Events"
               >

@@ -52,7 +52,7 @@ const MasterSlider = ({
             {/* <img
                 src={fire}
                 alt="Fire Icon"
-                className="size-12 rounded-full border border-orange-300 object-contain p-1"
+                className="size-12 rounded-full border border-orange-500 object-contain p-1"
               /> */}
             <DonationButton value="Make a donation" router="/donate" />
           </div>

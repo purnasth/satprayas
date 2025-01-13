@@ -67,7 +67,7 @@ const About = () => {
             {description}
           </p>
 
-          {/* <button className="mt-12 bg-orange-300 px-8 py-2 rounded-full">Explore More</button> */}
+          {/* <button className="mt-12 bg-orange-500 px-8 py-2 rounded-full">Explore More</button> */}
 
           <DonationButton value="Explore More" router="/about" />
         </div>

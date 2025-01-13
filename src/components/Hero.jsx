@@ -20,7 +20,7 @@ const Hero = () => {
       <section className="group relative m-0 p-0">
         <MasterSlider
           slides={slideShow}
-          speed={5000}
+          speed={1000}
           navigation={false}
           sizeClassName="min-h-[34rem] w-full object-cover object-center sm:h-[50vh] md:h-[70vh] lg:h-screen"
         />

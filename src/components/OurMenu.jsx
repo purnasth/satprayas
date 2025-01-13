@@ -54,7 +54,7 @@ const OurMenu = () => {
                   draggable="false"
                 />
               </div>
-              <div className="-mt-32 rounded-2xl bg-orange-300/40 p-4 pt-36 md:p-8 md:pt-40">
+              <div className="-mt-32 rounded-2xl bg-orange-500/40 p-4 pt-36 md:p-8 md:pt-40">
                 <h4 className="mb-2 font-title text-xl font-bold capitalize text-dark">
                   {cuisine.name}
                 </h4>
@@ -76,7 +76,7 @@ const OurMenu = () => {
             <div className="hidden lg:block">
               {index === 1 || index === 4 ? (
                 <>
-                  <div className="rounded-2xl bg-orange-300/40 p-4 pb-36 md:p-8 md:pb-40">
+                  <div className="rounded-2xl bg-orange-500/40 p-4 pb-36 md:p-8 md:pb-40">
                     <h4 className="mb-2 font-title text-xl font-bold capitalize text-dark">
                       {cuisine.name}
                     </h4>
@@ -111,7 +111,7 @@ const OurMenu = () => {
                       draggable="false"
                     />
                   </div>
-                  <div className="-mt-32 rounded-2xl bg-orange-300/40 p-4 pt-36 md:p-8 md:pt-40">
+                  <div className="-mt-32 rounded-2xl bg-orange-500/40 p-4 pt-36 md:p-8 md:pt-40">
                     <h4 className="mb-2 font-title text-xl font-bold capitalize text-dark">
                       {cuisine.name}
                     </h4>
@@ -135,7 +135,7 @@ const OurMenu = () => {
       </div>
 
       <div className="flex flex-col items-center justify-center gap-4">
-        <div className="mx-auto h-28 w-px bg-orange-300/30" />
+        <div className="mx-auto h-28 w-px bg-orange-500/30" />
         {/* <DonationButton value="View Full Menu" router="/food-menu" /> */}
         <DonationButton value="View Full Menu" router="#" />
       </div>

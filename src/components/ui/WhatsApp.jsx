@@ -61,10 +61,10 @@ const WhatsApp = () => {
         onClick={handleButtonClick}
         // className={`${
         //   showButton ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-        // } transition-300 fixed bottom-8 right-8 z-40 inline-flex h-9 items-center justify-center gap-1 rounded-full border border-orange-500/30 bg-white px-4 py-2 text-orange-500 hover:border-orange-500 hover:bg-orange-500 hover:text-light`}
+        // } transition-300 fixed bottom-8 right-8 z-40 inline-flex h-9 items-center justify-center gap-1 rounded-full border border-green-600/30 bg-white px-4 py-2 text-green-600 hover:border-green-600 hover:bg-green-600 hover:text-light`}
         className={`${
           showButton ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-        } transition-300 fixed bottom-4 right-4 z-40 inline-flex items-center justify-center gap-1 rounded-full border border-orange-500/30 bg-orange-300 p-2 text-dark hover:border-orange-300 hover:bg-orange-300/30 hover:text-orange-500`}
+        } transition-300 fixed bottom-4 right-4 z-40 inline-flex size-11 items-center justify-center gap-1 rounded-full border border-green-600 bg-light p-2 text-green-600 hover:border-green-600 hover:bg-green-600 hover:text-light`}
         title="WhatsApp"
         aria-label="WhatsApp"
       >
@@ -82,7 +82,7 @@ const WhatsApp = () => {
             <div className="space-y-5 px-6">
               <div className="space-y-2">
                 <span
-                  className={`inline-flex items-center justify-center gap-2 text-xs uppercase tracking-widest text-orange-500`}
+                  className={`inline-flex items-center justify-center gap-2 text-xs uppercase tracking-widest text-green-600`}
                 >
                   Whatsapp Us
                   <TbBrandWhatsapp className="text-base" />
@@ -95,7 +95,7 @@ const WhatsApp = () => {
                 href="https://web.whatsapp.com/send?phone=+9779851221636"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition-300 inline-flex rounded-full border border-orange-300 px-5 py-2 text-center text-sm tracking-wider text-orange-500 hover:bg-orange-300 hover:text-dark"
+                className="transition-300 inline-flex rounded-full border border-green-600 px-5 py-2 text-center text-sm tracking-wider text-green-600 hover:bg-green-600 hover:text-light"
               >
                 or Continue on Web
               </a>

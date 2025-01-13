@@ -1,0 +1,32 @@
+[
+    {
+        "id": "home",
+        "title": "Home",
+        "link": "\/home"
+    },
+    {
+        "id": "about",
+        "title": "About Satprayas",
+        "link": "\/about"
+    },
+    {
+        "id": "food-menu",
+        "title": "Menus",
+        "link": "\/food-menu"
+    },
+    {
+        "id": "gallery",
+        "title": "Our Gallery",
+        "link": "\/gallery"
+    },
+    {
+        "id": "contact",
+        "title": "Support & Contact",
+        "link": "\/contact"
+    },
+    {
+        "id": "offers",
+        "title": "Promotions",
+        "link": "\/offers"
+    }
+]

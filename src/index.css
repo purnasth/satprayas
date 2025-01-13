@@ -31,7 +31,7 @@
   }
 
   .scroll::-webkit-scrollbar-thumb {
-    @apply rounded-full bg-orange-300;
+    @apply rounded-full bg-orange-500;
   }
 
   .nearby-scroll::-webkit-scrollbar {
@@ -39,7 +39,7 @@
   }
 
   .nearby-scroll::-webkit-scrollbar-thumb {
-    @apply rounded-full bg-orange-300;
+    @apply rounded-full bg-orange-500;
   }
 
   /* ::-webkit-scrollbar {

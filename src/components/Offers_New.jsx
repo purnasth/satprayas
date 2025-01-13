@@ -70,13 +70,13 @@ const Offers_New = () => {
         </p> */}
         <p className="font-normal">
           We currently have
-          <span className="mx-1 bg-orange-300/50 px-2 font-extrabold">
+          <span className="mx-1 bg-orange-500/50 px-2 font-extrabold">
             {offersContent.length} offers
           </span>
           available. Grab your favorite dish at a discounted price before it's
           too late!
         </p>
-        <div className="mx-auto h-20 w-px bg-orange-300/30" />
+        <div className="mx-auto h-20 w-px bg-orange-500/30" />
         <div className="flex flex-col items-center justify-center gap-2 text-black">
           <DonationButton value="All Offers" router="#" />
           {/* <div className="flex flex-col items-center justify-center gap-0">

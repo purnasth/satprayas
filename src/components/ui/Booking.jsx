@@ -57,11 +57,11 @@ const WhatsApp = () => {
         onClick={handleButtonClick}
         className={`${
           showButton ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'
-        } transition-300 transition-1000 fixed bottom-4 right-1/2 z-40 inline-flex translate-x-1/2 translate-y-0 scale-100 items-center justify-center gap-2 rounded-full border border-orange-300/50 bg-dark/50 bg-orange-300 px-6 py-2 font-bold text-dark shadow backdrop-blur-sm hover:bg-orange-300/30 hover:text-orange-500`}
+        } transition-300 fixed bottom-4 right-1/2 z-40 inline-flex translate-x-1/2 translate-y-0 scale-100 items-center justify-center gap-2 rounded-full border border-green-700 bg-dark/50 bg-green-600 px-6 py-2 text-light shadow backdrop-blur-sm hover:bg-light hover:text-green-700`}
         title="Donate Us"
         aria-label="Donate Us"
       >
-        <span className="text-base font-medium">Donate Us</span>
+        <span className="text-base font-semibold tracking-wide">Donate Us</span>
         <PiHandHeartFill className="animate-bounce text-xl" />
       </button>
 
@@ -76,7 +76,7 @@ const WhatsApp = () => {
             <div className="space-y-5 px-6">
               <div className="space-y-2">
                 <span
-                  className={`inline-flex items-center justify-center gap-2 text-xs uppercase tracking-widest text-orange-500`}
+                  className={`inline-flex items-center justify-center gap-2 text-xs uppercase tracking-widest text-green-700`}
                 >
                   Make a Donation
                   <PiHandHeartFill className="text-base" />
@@ -87,10 +87,11 @@ const WhatsApp = () => {
                 </p>
               </div>
               <Link
-                to={booking_code}
+                // to={booking_code}
+                to="/contact"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition-300 inline-flex rounded-full border border-orange-300 px-5 py-2 text-center text-sm tracking-wider text-orange-500 hover:bg-orange-300 hover:text-dark"
+                className="transition-300 inline-flex rounded-full border border-green-700 px-5 py-2 text-center text-sm tracking-wider text-green-700 hover:bg-green-700 hover:text-light"
               >
                 or Explore More
               </Link>

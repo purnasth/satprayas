@@ -26,7 +26,7 @@ const contactFormFields = [
     label: 'Phone Number',
     required: true,
   },
-  { name: 'eventTitle', type: 'text', label: 'Event Title', required: true },
+  { name: 'eventTitle', type: 'text', label: 'Event name', required: true },
   { name: 'eventDate', type: 'date', label: 'Event Date', required: true },
   {
     name: 'guestsNumber',
@@ -116,7 +116,7 @@ const Form = () => {
           type="submit"
           aria-label="Submit"
           title="Submit"
-          className={`mt-4 rounded-full bg-orange-300 px-8 py-2 ${
+          className={`mt-4 rounded-full bg-orange-500 text-light px-8 py-2 ${
             isSubmitting ? 'cursor-not-allowed opacity-75' : ''
           }`}
           disabled={isSubmitting}

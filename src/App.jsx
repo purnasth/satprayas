@@ -22,6 +22,7 @@ import RouterToTop from './utils/RouterToTop';
 import ArticlePage from './pages/ArticlePage';
 import Booking from './components/ui/Booking';
 import Error404 from './layouts/Error404';
+import BackToTop from './components/ui/BackToTop';
 // import Preloader from './layouts/Preloader';
 
 const App = () => {
@@ -61,6 +62,7 @@ const App = () => {
           </Routes>
           <WhatsApp />
           <Booking />
+          <BackToTop />
         </Router>
         {/* </motion.div>
       )} */}

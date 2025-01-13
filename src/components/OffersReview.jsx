@@ -64,7 +64,7 @@ const OffersReview = () => {
               ))}
             </div>
             {/* <div className="mx-auto mt-16 text-center">
-              <Link to="#" className="rounded-full bg-orange-300 px-6 py-2">
+              <Link to="#" className="rounded-full bg-orange-500 px-6 py-2">
                 Explore more offers
               </Link>
             </div> */}

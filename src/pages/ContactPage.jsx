@@ -6,6 +6,7 @@ import useFetchAPI from '../hooks/useFetchAPI';
 import Meta from '../utils/Meta';
 import Contact from '../components/Contact';
 import UniversalFooter from '../layouts/UniversalFooter';
+import Donation from '../components/Donation';
 
 const ContactPage = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
@@ -34,9 +35,10 @@ const ContactPage = () => {
 
       <main>
         <Title
-          title="Contact Satprayas Nepal"
+          title="Satprayas Nepal"
           description="Seeking additional information or ways to contribute? Access our banking details, contact address, and event hosting form. Donate and empower a child & transform a future."
         />
+        <Donation />
         {/* <Nearby /> */}
         <Contact />
       </main>

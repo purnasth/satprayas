@@ -41,13 +41,16 @@ const BentoMasterSlider = ({
           <div className="pointer-events-auto z-10 col-span-2 flex size-full flex-col items-start justify-center">
             {slide.title && (
               <>
-              <h1>
-                Satprayas Nepal
-              </h1>
-              <p>
-                Satprayas Nepal is a service oriented non-profit organization that works for the well being and welfare of physically and mentally challenged children. It is registered in Bhaktapur District and has been providing services to children of Bhaktapur and has been providing services to children of Bhaktapur and nearby cities.
-              </p>
-              {/* <h2 className="text-shadow-dark-glow mx-8 mb-5 mt-8 max-w-xl text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
+                <h1>Satprayas Nepal</h1>
+                <p>
+                  Satprayas Nepal is a service oriented non-profit organization
+                  that works for the well being and welfare of physically and
+                  mentally challenged children. It is registered in Bhaktapur
+                  District and has been providing services to children of
+                  Bhaktapur and has been providing services to children of
+                  Bhaktapur and nearby cities.
+                </p>
+                {/* <h2 className="text-shadow-dark-glow mx-8 mb-5 mt-8 max-w-xl text-xl font-bold leading-relaxed text-dark md:mx-0 md:text-4xl md:leading-snug">
                 {slide.title}
               </h2> */}
               </>
@@ -55,7 +58,7 @@ const BentoMasterSlider = ({
             {/* <img
                 src={fire}
                 alt="Fire Icon"
-                className="size-12 rounded-full border border-orange-300 object-contain p-1"
+                className="size-12 rounded-full border border-orange-500 object-contain p-1"
               /> */}
             <DonationButton value="Make a donation" router="/donate" />
           </div>

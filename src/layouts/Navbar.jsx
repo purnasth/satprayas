@@ -15,8 +15,8 @@ const Navbar = () => {
     data: navLinks = [],
     isLoading,
     isError,
-  } = useFetchAPI('navLinks', `${apiUrl}menu`);
-  // } = useFetchAPI('navLinks', `/himalayanflavours/api/navLinks.json`);
+  // } = useFetchAPI('navLinks', `${apiUrl}menu`);
+  } = useFetchAPI('navLinks', `/api/navLinks.json`);
 
   const [isOpen, setIsOpen] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -70,7 +70,7 @@ const Navbar = () => {
         <div className="pointer-events-auto flex-1">
           <button
             onClick={toggleNav}
-            className="transition-300 inline-flex w-fit items-center justify-center gap-2 rounded-full border border-dark/50 bg-white px-4 py-2 text-dark hover:border-black/80 hover:bg-dark hover:text-light"
+            className="transition-300 inline-flex w-fit items-center justify-center gap-2 rounded-full border border-green-700 bg-white px-4 py-2 text-green-700 hover:border-green-700/80 hover:bg-green-700 hover:text-light"
             aria-label="Menu"
             title="Menu"
           >
@@ -90,7 +90,7 @@ const Navbar = () => {
         <div className="pointer-events-auto flex flex-1 items-end justify-end">
           <Link
             to="#contactForm"
-            className={`transition-300 inline-flex w-fit items-center justify-center gap-1 rounded-full border border-dark/50 bg-white px-4 py-2 text-dark hover:border-black/80 hover:bg-dark hover:text-light`}
+            className={`transition-300 inline-flex w-fit items-center justify-center gap-1 rounded-full border border-green-700 bg-white px-4 py-2 text-green-700 hover:border-green-700/80 hover:bg-green-700 hover:text-light`}
             aria-label="Reservation"
             title="Reservation"
             onClick={handleScroll}
@@ -132,7 +132,7 @@ const Navbar = () => {
                   <NavLink
                     to={link.link}
                     className={({ isActive }) =>
-                      `navlink ${isActive ? 'text-orange-400' : 'text-dark'}`
+                      `navlink ${isActive ? 'text-orange-500' : 'text-dark'}`
                     }
                     aria-label={link.title}
                   >

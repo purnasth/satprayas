@@ -89,7 +89,7 @@ const FacilityList = () => {
             return (
               <li
                 key={facility.id}
-                className="group relative inline-flex items-center gap-2 overflow-hidden text-pretty border border-y px-4 py-3 text-left text-xs transition-all duration-150 ease-linear hover:border-orange-300 hover:bg-orange-300/20 hover:font-bold hover:text-orange-600 md:text-base"
+                className="group relative inline-flex items-center gap-2 overflow-hidden text-pretty border border-y px-4 py-3 text-left text-xs transition-all duration-150 ease-linear hover:border-orange-500 hover:bg-orange-500/20 hover:font-bold hover:text-orange-600 md:text-base"
               >
                 {IconComponent ? (
                   <IconComponent className="text-lg transition-all duration-300 ease-linear group-hover:scale-125" />

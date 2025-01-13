@@ -71,7 +71,7 @@ const Offers = () => {
               We currently have
               <Link
                 to="#"
-                className="mx-1 bg-orange-300/50 px-2 font-extrabold"
+                className="mx-1 bg-orange-500/50 px-2 font-extrabold"
               >
                 {offersContent.length} offers
               </Link>
@@ -82,7 +82,7 @@ const Offers = () => {
               For more information, please feel free to enquiry us via the
               enquiry button below.
             </p>
-            <div className="ml-16 h-20 w-px bg-orange-300/30" />
+            <div className="ml-16 h-20 w-px bg-orange-500/30" />
             <div className="flex flex-col items-start justify-center gap-2 text-black">
               <DonationButton value="Enquiry" router="/offers#enquiry" />
               <OrCallUs />

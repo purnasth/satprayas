@@ -43,7 +43,7 @@ const Menu = () => {
       <main>
         <Title title={heading} description={description} />
 
-        <div className="mx-auto mt-8 flex justify-center flex-col gap-8 md:gap-16">
+        <div className="mx-auto mt-8 flex flex-col justify-center gap-8 md:gap-16">
           {menuPdf.map((pdf, index) => (
             <iframe
               key={index}
@@ -55,7 +55,7 @@ const Menu = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-4">
-          <div className="mx-auto h-32 w-px bg-orange-300/30" />
+          <div className="mx-auto h-32 w-px bg-orange-500/30" />
           <ReservationWhatsApp />
         </div>
       </main>
