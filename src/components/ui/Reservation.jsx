@@ -57,7 +57,7 @@ const Reservation = () => {
                 title="Host Your Events"
               >
                 <LuPartyPopper className="transition-300 text-xl group-hover:animate-ping" />
-                Submit Your Event
+                Schedule Your Event
                 <LuPartyPopper className="transition-300 text-xl group-hover:animate-ping" />
               </Link>
               {/* <ReservationWhatsApp /> */}

@@ -81,9 +81,9 @@ const Navbar = () => {
 
         <Logo
           aprops={`flex flex-1 justify-center transition-1000 pointer-events-auto object-contain origin-top pointer-events-auto ${
-            visible ? '-translate-y-0' : '-translate-y-[200%]'
+            visible ? '-translate-y-2' : '-translate-y-[200%]'
           }
-          ${window.scrollY > 0 ? 'scale-75' : 'scale-100'}
+          ${window.scrollY > 0 ? 'scale-90' : 'scale-100'}
           `}
           className={`transition-1000 h-16 w-auto rounded-xl bg-white object-contain p-1 md:h-28`}
         />

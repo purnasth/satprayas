@@ -1,0 +1,58 @@
+{
+    "heading": "Story of Satprayas Nepal",
+    "description": "Satprayas Nepal is a service oriented non-profit organization that works for the well being and welfare of physically and mentally challenged children. It is registered in Bhaktapur District and has been providing services to children of Bhaktapur and nearby cities.",
+    "facilities": [
+        {
+            "id": "71",
+            "name": "25+ Rescued Children",
+            "icon": "FaHandsHoldingChild",
+            "image": null
+        },
+        {
+            "id": "72",
+            "name": "5+ Care Takers",
+            "icon": "MdHealthAndSafety",
+            "image": null
+        },
+        {
+            "id": "70",
+            "name": "6+ Services",
+            "icon": "RiServiceFill",
+            "image": null
+        },
+        {
+            "id": "69",
+            "name": "Specialized Education",
+            "icon": "IoMdBook",
+            "image": null
+        },
+        {
+            "id": "68",
+            "name": "Counseling and Support",
+            "icon": "BsChatHeart",
+            "image": null
+        },
+        {
+            "id": "67",
+            "name": "Nutritious Food",
+            "icon": "TbSoup",
+            "image": null
+        },
+        {
+            "id": "66",
+            "name": "Art and Craft Workshops",
+            "icon": "TbPalette",
+            "image": null
+        }
+    ],
+    "images": [
+        {
+            "image": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/hNPjq-hf2.webp",
+            "title": "Convenience and Facility"
+        },
+        {
+            "image": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/qh04H-himalayanflavours.webp",
+            "title": "Convenience and Facility"
+        }
+    ]
+}

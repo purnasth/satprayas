@@ -3,7 +3,6 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import LogoBar from '../components/ui/LogoBar';
 // import Cuisine from '../components/Cuisine';
-import Facility from '../components/Facility';
 import Offers from '../components/Offers';
 import Gallery from '../components/Gallery';
 import OurMenu from '../components/OurMenu';
@@ -13,6 +12,7 @@ import useFetchAPI from '../hooks/useFetchAPI';
 import Meta from '../utils/Meta';
 import Popup from '../components/Popup';
 import Contact from '../components/Contact';
+import Awards from '../components/Awards';
 
 const Home = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
@@ -48,10 +48,12 @@ const Home = () => {
       <LogoBar />
       <OurMenu />
       <Reservation />
-      <Facility />
       <Offers />
       <Gallery limit={10} />
-      <Contact />
+      <Awards />
+      <main>
+        <Contact />
+      </main>
       <UniversalFooter />
     </>
   );

@@ -3,6 +3,7 @@
   src: url('./assets/fonts/Manding.woff') format('woff');
   /* font-display: swap; */
 }
+
 @font-face {
   font-family: 'Meuthanies';
   src: url('./assets/fonts/Meuthanies.woff') format('woff');
@@ -104,6 +105,10 @@
 
   .filter-black {
     filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(7500%) hue-rotate(327deg) brightness(96%) contrast(104%);
+  }
+
+  .filter-green {
+    filter: brightness(0) saturate(100%) invert(30%) sepia(30%) saturate(977%) hue-rotate(90deg) brightness(97%) contrast(97%);
   }
 
   .transition-300 {

@@ -1,21 +1,18 @@
 {
-    "title": "Welcome to Satprayas Nepal",
-    "description": "Satprayas Nepal is more than just a restaurant; it's a celebration of the rich and diverse culinary heritage of the Himalayan region. Nestled in the heart of Victoria, B.C., our restaurant offers an authentic taste of India, Nepal, and China, bringing together the vibrant and bold flavors that define the cultures.",
+    "title": "About Satprayas Nepal",
+    "description": "Satprayas Nepal is a service oriented non-profit organization that works for the well being and welfare of physically and mentally challenged children. It is registered in Bhaktapur District and has been providing services to children of Bhaktapur and has been providing services to children of Bhaktapur and nearby cities.",
     "images": [
         {
-            "src": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/JcccB-5.webp",
+            "src": "https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/377980150_794610636000026_8287448957004458594_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_aid=0&_nc_ohc=5kj3qhhCKS8Q7kNvgGMZO16&_nc_oc=Adh36D7v2arf62Dm8ui1GcLysqYyBnRjpPToPUuiyAZGMUTSgB_Q25nxXLM_Fek82Ds&_nc_zt=23&_nc_ht=scontent.fktm10-1.fna&_nc_gid=AhHEC6GaB9eMxJkM0_bJzdi&oh=00_AYCCip_I1A3ZWKLw7fVxIe8PysgGllVWbcwWG37GYslMjA&oe=678A8371",
             "alt": "Welcome to Satprayas Nepal"
         },
         {
-            "src": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/rlhD2-10.webp",
+            "src": "https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/462596008_1074221371372283_7469725485851605215_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=c5NsOdKVUi4Q7kNvgEbyDw3&_nc_oc=Adj6FsSGHNCFxJQSL-qgct0LcBOWwwY-Q2EZ0ReKnTEUIu85G6jBKyx8rRe7dKTqT3A&_nc_zt=23&_nc_ht=scontent.fktm10-1.fna&_nc_gid=AtnDeT99YXN87FzpLvTOwil&oh=00_AYCfiYoiBYL4OPknkTJcKsbrQL-Axg-sU80wAzln5DgfyA&oe=678A918C",
             "alt": "Welcome to Satprayas Nepal"
         },
         {
-            "src": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/mKPmJ-9.webp",
-            "alt": "Welcome to Satprayas Nepal"
-        },
-        {
-            "src": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/zYb5W-8.webp",
+            "hmm": "https://scontent.fktm10-1.fna.fbcdn.net/v/t1.6435-9/80840137_2683259708431583_7016318334920556544_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=G-WgDG5VcxsQ7kNvgE3GuDQ&_nc_oc=AdhdKFDqmFcHZB66RNJp1J9jFZ8MPJ22KbI-_azbWP4nYFZ12XjeOrV_dTGZjhq4Muc&_nc_zt=23&_nc_ht=scontent.fktm10-1.fna&_nc_gid=AD7qvh4E4Xbf1z5ON_wTbYB&oh=00_AYCw04rF-_cfZbftN7j7FeGLCfbSG0puzjuh_Km72Dc8xA&oe=67AC9DF6",
+            "src": "https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/70913979_2486895758067980_3636339751990067200_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=O5_FvAlg6oQQ7kNvgG89KEg&_nc_oc=Adhh51hjTB3WTZqph1qhvrt_kZWfjXKb8cHERu6zgS_e1OXPxTqU6XWDDfBTmO1ZEwk&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=A6p4N-aMVh_ZS7R9tIcoUKz&oh=00_AYCo1L_e1bMhRCI1vWTFkLPccNu4_4sy50sqKxP7x9QuKQ&oe=67AC9FF0",
             "alt": "Welcome to Satprayas Nepal"
         }
     ],
@@ -30,7 +27,8 @@
     "home_page": [
         {
             "title": "Satprayas means 'Attempting to do something good'",
-            "description": "Satprayas Nepal is a service oriented non-profit organization that works for the well being and welfare of physically and mentally challenged children. It is registered in Bhaktapur District and has been providing services to children of Bhaktapur and has been providing services to children of Bhaktapur and nearby cities.",
+            "description": "Our mission is to improve the lives of children with physical and mental disabilities whose families may not be able to fund the necessary therapy and education for them to build a prosperous future. Our focus isn't just on the students, but also on how we can change the perception and attitudes of the society towards differently-abled people.",
+            "image": "/assets/svg/kids.svg",
             "images": [
                 {
                     "src": "https:\/\/mayurstay.com\/himalayanflavours\/backend\/images\/articles\/gallery\/VHNR0-9.webp",

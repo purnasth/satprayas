@@ -19,19 +19,21 @@ const DeliveryPartners = () => {
 
   const { heading, partners } = deliveryPartners;
   return (
-    <>
-      <h3 className="px-2 text-5xl">{heading}</h3>
-      <div className="mx-auto inline-flex items-center justify-center gap-4 overflow-hidden rounded-full bg-white p-12">
+    <div className="container grid grid-cols-2 content-center items-center gap-6">
+      <h3 className="ml-auto max-w-xl text-right text-4xl leading-snug">
+        {heading}
+      </h3>
+      <div className="inline-flex items-center justify-start gap-4 overflow-hidden rounded-full">
         {partners.map((partner, index) => (
           <img
             key={index}
             src={partner.src}
             alt={partner.alt}
-            className="size-32 bg-white object-contain p-2"
+            className="size-32 object-contain p-2"
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
