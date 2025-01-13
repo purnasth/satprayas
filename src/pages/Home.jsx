@@ -8,10 +8,11 @@ import Offers from '../components/Offers';
 import Gallery from '../components/Gallery';
 import OurMenu from '../components/OurMenu';
 import Reservation from '../components/ui/Reservation';
-import Footer from '../components/Footer';
+import UniversalFooter from '../layouts/UniversalFooter';
 import useFetchAPI from '../hooks/useFetchAPI';
 import Meta from '../utils/Meta';
 import Popup from '../components/Popup';
+import Contact from '../components/Contact';
 
 const Home = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
@@ -49,8 +50,9 @@ const Home = () => {
       <Reservation />
       <Facility />
       <Offers />
-      <Gallery limit={9} />
-      <Footer />
+      <Gallery limit={10} />
+      <Contact />
+      <UniversalFooter />
     </>
   );
 };

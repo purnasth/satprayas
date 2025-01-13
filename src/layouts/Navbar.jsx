@@ -65,9 +65,9 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={`fixed top-0 z-50 flex w-full items-start p-4 transition-all duration-1000 ease-in-out`}
+        className={`pointer-events-none fixed top-0 z-50 flex w-full items-start p-4 transition-all duration-1000 ease-in-out`}
       >
-        <div className="flex-1">
+        <div className="pointer-events-auto flex-1">
           <button
             onClick={toggleNav}
             className="transition-300 inline-flex w-fit items-center justify-center gap-2 rounded-full border border-dark/50 bg-white px-4 py-2 text-dark hover:border-black/80 hover:bg-dark hover:text-light"
@@ -80,14 +80,14 @@ const Navbar = () => {
         </div>
 
         <Logo
-          aprops={`flex flex-1 justify-center transition-1000 pointer-events-auto object-contain origin-top  ${
+          aprops={`flex flex-1 justify-center transition-1000 pointer-events-auto object-contain origin-top pointer-events-auto ${
             visible ? '-translate-y-0' : '-translate-y-[200%]'
           }
           ${window.scrollY > 0 ? 'scale-75' : 'scale-100'}
           `}
           className={`transition-1000 h-16 w-auto rounded-xl bg-white object-contain p-1 md:h-28`}
         />
-        <div className="flex flex-1 items-end justify-end">
+        <div className="pointer-events-auto flex flex-1 items-end justify-end">
           <Link
             to="#contactForm"
             className={`transition-300 inline-flex w-fit items-center justify-center gap-1 rounded-full border border-dark/50 bg-white px-4 py-2 text-dark hover:border-black/80 hover:bg-dark hover:text-light`}

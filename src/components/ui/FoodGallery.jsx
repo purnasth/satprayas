@@ -18,7 +18,8 @@ const FoodGallery = ({ limit, galleryClassName }) => {
     data: galleryImages,
     isLoading,
     isError,
-  } = useFetchAPI('gallery', `${apiUrl}gallery`);
+  // } = useFetchAPI('gallery', `${apiUrl}gallery`);
+  } = useFetchAPI('gallery', `/api/gallery.json`);
 
   if (isLoading) return null;
   if (isError) return console.error(isError);
@@ -42,7 +43,7 @@ const FoodGallery = ({ limit, galleryClassName }) => {
         {displayedImages.map((image, index) => (
           <div
             key={index}
-            className="group relative mb-2 flex break-inside-avoid overflow-hidden rounded-lg border border-dark/20 bg-white shadow-md md:mb-4 md:rounded-2xl"
+            className="group relative mb-2 flex break-inside-avoid overflow-hidden border border-dark/20 bg-white shadow-md md:mb-4"
             data-src={image.url}
           >
             <img
@@ -52,12 +53,12 @@ const FoodGallery = ({ limit, galleryClassName }) => {
               loading="lazy"
               id="dish-name"
             />
-            <label
+            {/* <label
               htmlFor="dish-name"
               className="transition-300 pointer-events-none absolute bottom-0 left-1/2 z-10 h-fit w-full origin-bottom -translate-x-1/2 bg-gradient-to-t from-white to-transparent p-2 pt-12 text-center text-xs font-medium text-black group-hover:scale-y-0 group-hover:opacity-0 md:p-4 md:pt-12 md:text-sm md:font-bold lg:text-base"
             >
               {image.alt}
-            </label>
+            </label> */}
           </div>
         ))}
       </LightGallery>

@@ -1,9 +1,11 @@
 import React from 'react';
 import Title from '../components/ui/Title';
-import Nearby from '../components/ui/Nearby';
-import Footer from '../components/Footer';
+// import Nearby from '../components/ui/Nearby';
+// import Footer from '../components/Footer';
 import useFetchAPI from '../hooks/useFetchAPI';
 import Meta from '../utils/Meta';
+import Contact from '../components/Contact';
+import UniversalFooter from '../layouts/UniversalFooter';
 
 const ContactPage = () => {
   const apiUrl = import.meta.env.VITE_API_URL;
@@ -30,15 +32,16 @@ const ContactPage = () => {
         canonicalUrl={'https://satprayas-nepal.com/contact'}
       />
 
-      <main className="bg-orange-50">
+      <main>
         <Title
-          title="Reach Satprayas Nepal"
-          description="Get the directions to our restaurant and contact us for any reservations whether it's a small gathering or a large event."
+          title="Contact Satprayas Nepal"
+          description="Seeking additional information or ways to contribute? Access our banking details, contact address, and event hosting form. Donate and empower a child & transform a future."
         />
-        <Nearby />
+        {/* <Nearby /> */}
+        <Contact />
       </main>
 
-      <Footer />
+      <UniversalFooter />
     </>
   );
 };

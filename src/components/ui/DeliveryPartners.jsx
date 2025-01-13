@@ -8,10 +8,8 @@ const DeliveryPartners = () => {
     data: deliveryPartners,
     isLoading,
     isError,
-  } = useFetchAPI(
-    'deliveryPartners',
-    `${apiUrl}delivery-partners`,
-  );
+    // } = useFetchAPI('deliveryPartners', `${apiUrl}delivery-partners`);
+  } = useFetchAPI('deliveryPartners', `/api/deliverypartners.json`);
 
   if (isLoading) return null;
   if (isError) {
@@ -22,17 +20,17 @@ const DeliveryPartners = () => {
   const { heading, partners } = deliveryPartners;
   return (
     <>
+      <h3 className="px-2 text-5xl">{heading}</h3>
       <div className="mx-auto inline-flex items-center justify-center gap-4 overflow-hidden rounded-full bg-white p-12">
         {partners.map((partner, index) => (
           <img
             key={index}
             src={partner.src}
             alt={partner.alt}
-            className="size-24 bg-white object-contain p-2"
+            className="size-32 bg-white object-contain p-2"
           />
         ))}
       </div>
-      <p className="bg-orange-300/20 px-2 font-bold">{heading}</p>
     </>
   );
 };
