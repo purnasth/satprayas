@@ -95,7 +95,6 @@ const AboutPage = () => {
       </main>
       <LogoBar />
       <FacilityList />
-      <UniversalFooter />
     </>
   );
 };

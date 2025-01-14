@@ -37,7 +37,6 @@ const GalleryPage = () => {
 
         <FoodGallery galleryClassName="columns-2 sm:columns-2 lg:columns-3 xl:columns-4 gap-2 md:gap-4" />
       </main>
-      <UniversalFooter />
     </>
   );
 };

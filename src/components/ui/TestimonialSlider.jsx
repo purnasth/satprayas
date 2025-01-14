@@ -50,7 +50,7 @@ const TestimonialSlider = () => {
             <span className="size-12 rounded-full bg-orange-600 p-1 text-7xl text-white">
               &#x201C;
             </span>
-            <div className="mt-8 max-h-36 overflow-y-auto">
+            <div className="scroll mt-8 max-h-36 overflow-y-auto">
               <p className="review mr-5 text-justify text-sm sm:text-lg md:text-pretty">
                 {content.review}
               </p>
@@ -58,7 +58,7 @@ const TestimonialSlider = () => {
             <Link
               to={content.link}
               target="_blank"
-              className="mt-6 flex items-center justify-center gap-3"
+              className="mt-4 flex items-center justify-center gap-3"
             >
               {/* <img
                 src={content.sourceImage}
@@ -67,13 +67,13 @@ const TestimonialSlider = () => {
               /> */}
               <div className="text-left">
                 <p className="caps text-lg font-semibold">{content.author}</p>
-                {/* <p className="text-xs">{content.source}</p> */}
+                <p className="text-sm">{content.source}</p>
               </div>
             </Link>
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="absolute right-4 bottom-0 z-10 flex items-end justify-between gap-3">
+      <div className="absolute top-3 right-4 z-10 flex items-end justify-between gap-3">
         <button
           className="rounded-full border p-1 text-2xl text-dark shadow backdrop-blur hover:bg-dark/10"
           onClick={handlePrev}

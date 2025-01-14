@@ -2,22 +2,27 @@
     {
         "id": "home",
         "title": "Home",
-        "link": "\/home"
+        "link": "\/"
     },
     {
         "id": "about",
-        "title": "About Satprayas",
+        "title": "About Us",
         "link": "\/about"
-    },
-    {
-        "id": "food-menu",
-        "title": "Menus",
-        "link": "\/food-menu"
     },
     {
         "id": "gallery",
         "title": "Gallery",
         "link": "\/gallery"
+    },
+    {
+        "id": "services",
+        "title": "Services",
+        "link": "\/services"
+    },
+    {
+        "id": "stories",
+        "title": "Success Stories",
+        "link": "\/stories"
     },
     {
         "id": "contact",

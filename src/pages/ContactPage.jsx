@@ -42,8 +42,6 @@ const ContactPage = () => {
         {/* <Nearby /> */}
         <Contact />
       </main>
-
-      <UniversalFooter />
     </>
   );
 };

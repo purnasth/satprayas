@@ -54,7 +54,6 @@ const Home = () => {
       {/* <main> */}
         <Contact />
       {/* </main> */}
-      <UniversalFooter />
     </>
   );
 };

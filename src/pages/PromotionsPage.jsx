@@ -112,7 +112,7 @@ const PromotionsPage = () => {
           ))}
         </div>
       </main>
-      <UniversalFooter />
+      
       {showOffersEnquiry && (
         <OffersEnquiry
           onClose={() => {

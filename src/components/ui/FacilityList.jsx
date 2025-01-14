@@ -1,5 +1,5 @@
 import React from 'react';
-import fire from '../../assets/logos/fire.png';
+import fire from '../../assets/favicon.png';
 import { MdDoneAll } from 'react-icons/md';
 import useFetchAPI from '../../hooks/useFetchAPI';
 import { TbWifi } from 'react-icons/tb';

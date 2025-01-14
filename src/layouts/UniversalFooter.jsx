@@ -122,7 +122,7 @@ const UniversalFooter = () => {
               <TestimonialSlider />
             </div>
 
-            <ul className="links mt-4 flex flex-wrap items-start justify-between gap-2 md:mt-12 md:gap-x-8">
+            <ul className="links mt-4 flex flex-wrap items-start justify-between gap-2 md:mt-11 md:gap-x-8">
               {navLinks.slice(1).map((link) => (
                 <li className="group" key={link.id}>
                   <Link

@@ -20,12 +20,18 @@ const Logo = ({ aprops, className }) => {
 
   const { logo_upload, sitetitle } = siteRegulars;
 
+  const handleClick = () => {
+    // window.scrollTo({ top: 0});
+    window.scrollTo(0, 0);
+  };
+
   return (
     <Link
       to="/"
       className={aprops ? aprops : 'cursor-pointer'}
       aria-label={sitetitle}
       title={sitetitle}
+      onClick={handleClick}
     >
       <img
         src={logo_upload}
