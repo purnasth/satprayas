@@ -22,6 +22,7 @@ import Error404 from './layouts/Error404';
 import BackToTop from './components/ui/BackToTop';
 import SuccessStories from './pages/SuccessStories';
 import UniversalFooter from './layouts/UniversalFooter';
+import DonationSection from './components/ui/DonationSection';
 
 const App = () => {
   useLenisScroll();
@@ -47,7 +48,7 @@ const App = () => {
           <WhatsApp />
           <Booking />
           <BackToTop />
-
+          <DonationSection />
           <UniversalFooter />
         </Router>
       </HelmetProvider>

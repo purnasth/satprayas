@@ -33,7 +33,7 @@ const ContactPage = () => {
         canonicalUrl={'https://satprayas-nepal.com/contact'}
       />
 
-      <main className='pb-16'>
+      <main>
         <Title
           title="Satprayas Nepal"
           description="Seeking additional information or ways to contribute? Access our banking details, contact address, and event hosting form. Donate and empower a child & transform a future."

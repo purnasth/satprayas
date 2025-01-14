@@ -6,12 +6,24 @@ module.exports = {
       colors: {
         dark: '#000',
         light: '#fffbf3',
-        "logo-blue": '#004aad',
-        "logo-red": '#ff3130'
+        primary: '#f76011',
+        secondary: '#015b27',
       },
       fontFamily: {
-        title: ['"Manding"', 'Bricolage Grotesque', 'Georgia', 'Cambria', 'serif'],
-        body: ['"Schibsted Grotesk"', 'Bricolage Grotesque', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        title: [
+          '"Manding"',
+          'Bricolage Grotesque',
+          'Georgia',
+          'Cambria',
+          'serif',
+        ],
+        body: [
+          '"Schibsted Grotesk"',
+          'Bricolage Grotesque',
+          'ui-sans-serif',
+          'system-ui',
+          'sans-serif',
+        ],
       },
       fontSize: {
         inherit: 'inherit',

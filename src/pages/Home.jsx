@@ -7,7 +7,6 @@ import Offers from '../components/Offers';
 import Gallery from '../components/Gallery';
 import OurMenu from '../components/OurMenu';
 import Reservation from '../components/ui/Reservation';
-import UniversalFooter from '../layouts/UniversalFooter';
 import useFetchAPI from '../hooks/useFetchAPI';
 import Meta from '../utils/Meta';
 import Popup from '../components/Popup';
@@ -50,9 +49,10 @@ const Home = () => {
       <Reservation />
       <Offers />
       <Gallery limit={10} />
+      <LogoBar />
       <Awards />
       {/* <main> */}
-        <Contact />
+      <Contact />
       {/* </main> */}
     </>
   );
