@@ -48,7 +48,7 @@ const Home = () => {
       <OurMenu />
       <Reservation />
       <Offers />
-      <Gallery limit={10} />
+      <Gallery limit={12} />
       <LogoBar />
       <Awards />
       {/* <main> */}

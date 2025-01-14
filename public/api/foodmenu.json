@@ -1,0 +1,38 @@
+[
+    {
+        "id": "50",
+        "name": "Health & Medical",
+        "description": "We help children suffering from Cerebral Palsy, Down Syndrome, Spinal Bifida, and Muscular Dystrophy.",
+        "imageUrl": "https://www.fouroakshealthcare.co.uk/wp-content/uploads/2021/11/iStock-580115190.jpg"
+    },
+    {
+        "id": "49",
+        "name": "Vocational Training",
+        "description": "We focus providing vocational training to the children with disabilities to develop life skills for self sustenance.",
+        "imageUrl": "https://wp.xpressbuddy.com/sunnyaid/wp-content/uploads/2024/08/service-img10.png"
+    },
+    {
+        "id": "48",
+        "name": "Theraupetic Support",
+        "description": "We provide therapeutic support to the children with disabilities to improve their physical and mental health.",
+        "imageUrl": "https://wp.xpressbuddy.com/sunnyaid/wp-content/uploads/2024/07/service-img02.png"
+    },
+    {
+        "id": "47",
+        "name": "Home Visit & Counseling",
+        "description": "Home visit and counseling for the children who are unable to attend the center.",
+        "imageUrl": "https://iecam.illinois.edu/uploads/child-with-doctorjpeg-6626d68b9f375.jpg"
+    },
+    {
+        "id": "46",
+        "name": "Daily Living Support",
+        "description": "We provide daily living support to the children with disabilities to improve their quality of life.",
+        "imageUrl": "https://wp.xpressbuddy.com/sunnyaid/wp-content/uploads/2024/08/service-img04.png"
+    },
+    {
+        "id": "45",
+        "name": "Community & Activites",
+        "description": "We help the children to engage in community social activities to connect with the society.",
+        "imageUrl": "https://buddymantra.com/wp-content/uploads/2018/11/special-child.jpg"
+    }
+]

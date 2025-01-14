@@ -19,9 +19,7 @@ module.exports = {
         ],
         body: [
           '"Schibsted Grotesk"',
-          'Bricolage Grotesque',
-          'ui-sans-serif',
-          'system-ui',
+          'Syne',
           'sans-serif',
         ],
       },

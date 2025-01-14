@@ -18,16 +18,19 @@ const Gallery = ({ limit }) => {
         </div>
 
         <FoodGallery
-          galleryClassName="columns-3 sm:columns-2 lg:columns-3 xl:columns-4 gap-2 md:gap-4"
+          galleryClassName="columns-3 sm:columns-2 lg:columns-3 xl:columns-5 gap-2 md:gap-4"
           limit={limit}
         />
 
-        <Link
-          to="/gallery"
-          className="transition-300 mx-auto mt-16 flex w-fit items-center justify-center gap-2 rounded-full border border-orange-500/50 bg-orange-500 px-6 py-2 font-medium text-light shadow backdrop-blur-sm hover:bg-light hover:text-orange-500"
-        >
-          Explore Gallery
-        </Link>
+        <div className="flex flex-col items-center justify-center mt-5">
+          <div className="mx-auto h-28 w-px bg-orange-500/30" />
+          <Link
+            to="/gallery"
+            className="transition-300 mx-auto flex w-fit items-center justify-center gap-2 rounded-full border-2 border-orange-500/50 bg-orange-500 px-6 py-2 font-medium text-light shadow backdrop-blur-sm hover:bg-light hover:text-orange-500"
+          >
+            Explore Gallery
+          </Link>
+        </div>
       </main>
     </>
   );
