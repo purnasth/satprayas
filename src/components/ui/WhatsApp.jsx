@@ -92,7 +92,8 @@ const WhatsApp = () => {
                 </p>
               </div>
               <a
-                href="https://web.whatsapp.com/send?phone=+9779851221636"
+                href={`https://web.whatsapp.com/send?phone=${whatsapp_a}`} //! use this for redirect to whatsapp web
+                // href={`https://wa.me/${whatsapp_a}`} //! use this for redirect to whatsapp app
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-300 inline-flex rounded-full border border-green-600 px-5 py-2 text-center text-sm tracking-wider text-green-600 hover:bg-green-600 hover:text-light"
