@@ -36,11 +36,14 @@ const OurMenu = () => {
         {menu.slice(0, 6).map((cuisine) => (
           <div
             key={cuisine.id}
-            className="transition-300 group relative overflow-hidden rounded-2xl border p-4 pt-36 shadow hover:border-dark/0 hover:shadow-none md:p-10"
+            className="transition-300 group relative overflow-hidden rounded-2xl border p-4 pt-36 text-dark shadow hover:border-dark/0 hover:text-white hover:shadow-none md:p-10"
           >
-            <div className="absolute inset-0 -z-10 scale-90 rounded-2xl bg-orange-500 text-dark opacity-0 transition-all duration-200 ease-linear group-hover:scale-100 group-hover:rounded-2xl group-hover:opacity-100"></div>
+            <div className="absolute -top-1/4 right-2 -z-10 size-80 rounded-full bg-orange-500 blur-[100px]"></div>
+            <div className="absolute -bottom-12 -left-10 -z-10 size-52 rounded-full bg-orange-400 blur-[100px]"></div>
+            <div className="absolute inset-0 -z-10 scale-90 rounded-2xl bg-orange-500 opacity-0 transition-all duration-200 ease-linear group-hover:scale-100 group-hover:rounded-2xl group-hover:opacity-100"></div>
+
             <h4 className="text-2xl capitalize">{cuisine.name}</h4>
-            <div className="relative my-8 h-64 w-full overflow-hidden rounded-xl">
+            <div className="relative my-8 h-72 w-full overflow-hidden rounded-xl">
               <img
                 src={cuisine.imageUrl}
                 alt={cuisine.name}
@@ -62,7 +65,9 @@ const OurMenu = () => {
                 </defs>
               </svg>
             </div>
-            <p className="text-base opacity-60 line-clamp-2">{cuisine.description}</p>
+            <p className="line-clamp-2 text-base opacity-70 group-hover:opacity-90">
+              {cuisine.description}
+            </p>
           </div>
         ))}
       </div>
