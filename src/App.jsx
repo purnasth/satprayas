@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate,
+  // Navigate,
 } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
@@ -12,7 +12,7 @@ import Home from './pages/Home';
 import WhatsApp from './components/ui/WhatsApp';
 import useLenisScroll from './hooks/useLenisScroll';
 import GalleryPage from './pages/GalleryPage';
-import PromotionsPage from './pages/PromotionsPage';
+// import PromotionsPage from './pages/PromotionsPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import RouterToTop from './utils/RouterToTop';
@@ -23,6 +23,7 @@ import BackToTop from './components/ui/BackToTop';
 import SuccessStories from './pages/SuccessStories';
 import UniversalFooter from './layouts/UniversalFooter';
 import DonationSection from './components/ui/DonationSection';
+import ServicesPage from './pages/ServicesPage';
 
 const App = () => {
   useLenisScroll();
@@ -38,10 +39,11 @@ const App = () => {
             <Route path="/home" element={<Home />} /> */}
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<GalleryPage />} />
-            <Route path="/offers" element={<PromotionsPage />} />
+            {/* <Route path="/offers" element={<PromotionsPage />} /> */}
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/stories" element={<SuccessStories />} />
+            <Route path="/services" element={<ServicesPage />} />
             <Route path="/:slug" element={<ArticlePage />} />
             <Route path="*" element={<Error404 />} />
           </Routes>

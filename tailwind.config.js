@@ -8,6 +8,7 @@ module.exports = {
         light: '#fffbf3',
         primary: '#f76011',
         secondary: '#015b27',
+        // "orange-50": "#fff7e6",
       },
       fontFamily: {
         title: [

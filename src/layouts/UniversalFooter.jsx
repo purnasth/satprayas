@@ -146,7 +146,7 @@ const UniversalFooter = () => {
           <span>
             Website by: &nbsp;
             <a
-              className="font-bold"
+              className="font-semibold"
               href="https://www.longtail.info/"
               target="_blank"
             >

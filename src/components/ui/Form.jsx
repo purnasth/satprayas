@@ -102,7 +102,7 @@
 //               />
 //             )}
 //             {errors[input.name] && (
-//               <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-light py-0 text-sm text-red-500 md:py-1">
+//               <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-white py-0 text-sm text-red-500 md:py-1">
 //                 {errors[input.name].message}*
 //               </span>
 //             )}
@@ -223,7 +223,7 @@ const Form = () => {
               />
             )}
             {errors[input.name] && (
-              <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-light py-0 text-sm text-red-500 md:py-1">
+              <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-white py-0 text-sm text-red-500 md:py-1">
                 {errors[input.name].message}*
               </span>
             )}
@@ -244,7 +244,7 @@ const Form = () => {
               } `}
             />
             {errors.eventDate && (
-              <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-light py-0 text-sm text-red-500 md:py-1">
+              <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-white py-0 text-sm text-red-500 md:py-1">
                 {errors.eventDate.message}*
               </span>
             )}
@@ -263,7 +263,7 @@ const Form = () => {
               } `}
             />
             {errors.guestsNumber && (
-              <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-light py-0 text-sm text-red-500 md:py-1">
+              <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-white py-0 text-sm text-red-500 md:py-1">
                 {errors.guestsNumber.message}*
               </span>
             )}
@@ -283,7 +283,7 @@ const Form = () => {
             } `}
           />
           {errors.message && (
-            <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-light py-0 text-sm text-red-500 md:py-1">
+            <span className="pointer-events-none absolute left-0 top-1/2 m-px select-none bg-white py-0 text-sm text-red-500 md:py-1">
               {errors.message.message}*
             </span>
           )}
@@ -296,7 +296,7 @@ const Form = () => {
           type="submit"
           aria-label="Submit"
           title="Submit"
-          className={`transition-300 mt-4 rounded-full border-2 border-orange-500/50 bg-orange-500 px-8 py-2 text-light hover:bg-light hover:text-orange-500 ${
+          className={`transition-300 mt-4 rounded-full border-2 border-orange-500/50 bg-orange-500 px-8 py-2 text-light hover:bg-white hover:text-orange-500 ${
             isSubmitting ? 'cursor-not-allowed opacity-75' : ''
           }`}
           disabled={isSubmitting}

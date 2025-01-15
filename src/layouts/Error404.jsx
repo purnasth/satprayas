@@ -2,6 +2,7 @@ import React from 'react';
 import error from '../assets/error.svg';
 import DonationButton from '../components/ui/DonationButton';
 import Meta from '../utils/Meta';
+import ColorPalette from '../components/ui/ColorPalette';
 
 const Error404 = () => {
   return (
@@ -15,9 +16,14 @@ const Error404 = () => {
         <img
           src={error}
           alt="Error 404"
-          className="mb-8 h-auto w-96 select-none object-contain md:h-[60vh] md:w-auto"
+          className="h-auto w-96 select-none object-contain md:h-[50vh] md:w-auto -z-10"
           draggable="false"
         />
+        <p className="mb-8 max-w-sm text-center leading-loose">
+          <strong className="text-7xl font-bold text-orange-500">404</strong>
+          <br />
+          We searched everywhere but couldn't find what you're looking for.
+        </p>
         <DonationButton value="Go Home" router="/" />
       </div>
     </>

@@ -10,14 +10,14 @@
         "link": "\/about"
     },
     {
-        "id": "gallery",
-        "title": "Gallery",
-        "link": "\/gallery"
-    },
-    {
         "id": "services",
         "title": "Services",
         "link": "\/services"
+    },
+    {
+        "id": "gallery",
+        "title": "Gallery",
+        "link": "\/gallery"
     },
     {
         "id": "stories",
@@ -28,10 +28,5 @@
         "id": "contact",
         "title": "Support & Contact",
         "link": "\/contact"
-    },
-    {
-        "id": "offers",
-        "title": "Promotions",
-        "link": "\/offers"
     }
 ]

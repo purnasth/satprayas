@@ -28,11 +28,11 @@ const About = () => {
   return (
     <>
       <main>
-        <div class="container space-y-6 text-center">
+        <div className="container space-y-6 text-center">
           <h3 className="text-3xl capitalize leading-snug sm:text-2xl md:text-4xl lg:text-4xl lg:leading-snug 2xl:text-7xl 2xl:leading-normal">
             {homeTitle}
           </h3>
-          <p class="mx-auto max-w-4xl text-justify opacity-50 md:text-center">
+          <p className="mx-auto max-w-4xl text-justify opacity-50 md:text-center">
             {homeDescription}
           </p>
 
