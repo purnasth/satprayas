@@ -30,7 +30,7 @@ const ContactPage = () => {
     <>
       <Meta
         meta_title={contact_meta_title}
-        canonicalUrl={'https://satprayas-nepal.com/contact'}
+        canonicalUrl={'https://satprayash.org.np/contact'}
       />
 
       <main>

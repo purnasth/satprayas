@@ -10,13 +10,13 @@ const Error404 = () => {
       <Meta
         title="404 Not Found | Satprayas Nepal"
         meta_description="We searched everywhere but couldn't find what you're looking for. Let's find a better place for you to go."
-        canonicalUrl="https://satprayas-nepal.com/"
+        canonicalUrl="https://satprayash.org.np/"
       />
       <div className="flex h-screen flex-col items-center justify-center">
         <img
           src={error}
           alt="Error 404"
-          className="h-auto w-96 select-none object-contain md:h-[50vh] md:w-auto -z-10"
+          className="-z-10 h-auto w-96 select-none object-contain md:h-[50vh] md:w-auto"
           draggable="false"
         />
         <p className="mb-8 max-w-sm text-center leading-loose">

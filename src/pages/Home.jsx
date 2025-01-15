@@ -47,7 +47,7 @@ const Home = () => {
       <LogoBar />
       <OurMenu />
       <Reservation />
-      <Offers />
+      {/* <Offers /> */}
       <Gallery limit={12} />
       <LogoBar />
       <Awards />

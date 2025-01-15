@@ -39,7 +39,7 @@ const ArticlePage = () => {
         meta_title={`${title} | Satprayas Nepal`}
         meta_description={meta_description}
         meta_keywords={meta_keywords}
-        canonicalUrl={`https://satprayas-nepal.com/${slug}`}
+        canonicalUrl={`https://satprayash.org.np/${slug}`}
       />
       <main className="text-center">
         <h1 className="text-3xl capitalize leading-snug sm:text-3xl md:text-4xl lg:text-7xl lg:leading-snug">

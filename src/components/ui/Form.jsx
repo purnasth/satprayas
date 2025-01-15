@@ -194,7 +194,7 @@ const Form = () => {
     <>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="scroll-mt-[4.5rem] 2xl:scroll-mt-36"
+        className="scroll-mt-12 2xl:scroll-mt-36"
         id="contactForm"
       >
         {contactFormFields.map((input) => (

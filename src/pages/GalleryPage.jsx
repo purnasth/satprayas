@@ -27,7 +27,7 @@ const GalleryPage = () => {
     <>
       <Meta
         meta_title={gallery_meta_title}
-        canonicalUrl="https://satprayas-nepal.com/gallery"
+        canonicalUrl="https://satprayash.org.np/gallery"
       />
       <main className="px-4">
         <Title

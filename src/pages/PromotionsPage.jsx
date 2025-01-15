@@ -55,7 +55,7 @@ const PromotionsPage = () => {
     <>
       <Meta
         meta_title="Special Offers & Promotions | Satprayas Nepal"
-        canonicalUrl="https://satprayas-nepal.com/offers"
+        canonicalUrl="https://satprayash.org.np/offers"
       />
 
       <main className="px-4 lg:px-8">
@@ -112,7 +112,7 @@ const PromotionsPage = () => {
           ))}
         </div>
       </main>
-      
+
       {showOffersEnquiry && (
         <OffersEnquiry
           onClose={() => {

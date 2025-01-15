@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "type": "video",
+        "sliders": [
+            {
+                "src": "https://www.youtube.com/embed/6XZh-o9QB6Y",
+                "alt": "Satprayas Nepal",
+                "title": "Video",
+                "description": "",
+                "link": "#"
+            }
+        ]
+    }
+]

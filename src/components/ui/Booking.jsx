@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MdOutlineRoomService } from 'react-icons/md';
 import useFetchAPI from '../../hooks/useFetchAPI';
 import { PiHandHeartFill } from 'react-icons/pi';
-import PopupModal from '../PopupModa';
+import PopupModal from '../PopupModal';
 
 const Booking = () => {
   const apiUrl = import.meta.env.VITE_API_URL;

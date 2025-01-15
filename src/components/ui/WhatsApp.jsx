@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { TbBrandWhatsapp } from 'react-icons/tb';
-import PopupModal from '../PopupModa';
+import PopupModal from '../PopupModal';
 import useFetchAPI from '../../hooks/useFetchAPI';
 
 const WhatsApp = () => {
